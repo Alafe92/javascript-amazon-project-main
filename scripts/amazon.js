@@ -102,7 +102,7 @@ productsHTML += `
 
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
-
+ 
 
 function updateCartQuantity() {
 let cartQuantity = 0;
@@ -119,11 +119,6 @@ button.addEventListener('click', () => {
   const productId = button.dataset.productId;
   addToCart(productId);
   updateCartQuantity();
-
-  
-
-  
-
 
 });
 });
